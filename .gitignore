@@ -1,6 +1,17 @@
-data/               # Don't commit the dataset folder
-*.csv               # Don't commit any CSV files you create
-__pycache__/        # Python's compiled cache — generated automatically
-.ipynb_checkpoints/ # Jupyter's internal state — regenerates automatically
-.venv/              # Your virtual environment — not portable anyway
-.vscode/            # VSCode settings — personal to your machine
+# Dataset folder
+data/
+
+# Generated CSV files
+*.csv
+
+# Python compiled cache
+__pycache__/
+
+# Jupyter checkpoint files
+.ipynb_checkpoints/
+
+# Virtual environment
+.venv/
+
+# VSCode settings
+.vscode/
